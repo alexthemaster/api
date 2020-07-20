@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Client | @skyra/api</title>
+	<title>UserAuthObject | @skyra/api</title>
 	<meta name="description" content="Documentation for @skyra/api">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -52,13 +52,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_client_.html">&quot;Client&quot;</a>
-				</li>
-				<li>
-					<a href="_client_.client.html">Client</a>
+					<a href="userauthobject.html">UserAuthObject</a>
 				</li>
 			</ul>
-			<h1>Interface Client</h1>
+			<h1>Interface UserAuthObject</h1>
 		</div>
 	</div>
 </header>
@@ -69,7 +66,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Client</span>
+						<span class="target">UserAuthObject</span>
 					</li>
 				</ul>
 			</section>
@@ -80,7 +77,10 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_client_.client.html#server" class="tsd-kind-icon">server</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#expires" class="tsd-kind-icon">expires</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#refresh" class="tsd-kind-icon">refresh</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#token" class="tsd-kind-icon">token</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#user_id" class="tsd-kind-icon">user_<wbr>id</a></li>
 							</ul>
 						</section>
 					</div>
@@ -89,12 +89,42 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="server" class="tsd-anchor"></a>
-					<h3>server</h3>
-					<div class="tsd-signature tsd-kind-icon">server<span class="tsd-signature-symbol">:</span> <a href="../classes/server.html" class="tsd-signature-type">Server</a></div>
+					<a name="expires" class="tsd-anchor"></a>
+					<h3>expires</h3>
+					<div class="tsd-signature tsd-kind-icon">expires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/skyra-project/api/blob/76c31c4/src/lib/SkyraAPI.ts#L14">src/lib/SkyraAPI.ts:14</a></li>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/76c31c4/src/lib/structures/api/ApiRequest.ts#L8">src/lib/structures/api/ApiRequest.ts:8</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="refresh" class="tsd-anchor"></a>
+					<h3>refresh</h3>
+					<div class="tsd-signature tsd-kind-icon">refresh<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/76c31c4/src/lib/structures/api/ApiRequest.ts#L5">src/lib/structures/api/ApiRequest.ts:5</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="token" class="tsd-anchor"></a>
+					<h3>token</h3>
+					<div class="tsd-signature tsd-kind-icon">token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/76c31c4/src/lib/structures/api/ApiRequest.ts#L4">src/lib/structures/api/ApiRequest.ts:4</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="user_id" class="tsd-anchor"></a>
+					<h3>user_<wbr>id</h3>
+					<div class="tsd-signature tsd-kind-icon">user_<wbr>id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/76c31c4/src/lib/structures/api/ApiRequest.ts#L7">src/lib/structures/api/ApiRequest.ts:7</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -106,25 +136,55 @@
 					<li class="globals  ">
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class="current tsd-kind-module">
-						<a href="../modules/_client_.html">&quot;<wbr>Client&quot;</a>
-					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="../enums/types.html" class="tsd-kind-icon">Types</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/apirequest.html" class="tsd-kind-icon">Api<wbr>Request</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/apiresponse.html" class="tsd-kind-icon">Api<wbr>Response</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/cookiestore.html" class="tsd-kind-icon">Cookie<wbr>Store</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/server.html" class="tsd-kind-icon">Server</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="../classes/skyraapi.html" class="tsd-kind-icon">SkyraAPI</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="securecookiestoresetoptions.html" class="tsd-kind-icon">Secure<wbr>Cookie<wbr>Store<wbr>Set<wbr>Options</a>
+					</li>
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_client_.client.html" class="tsd-kind-icon">Client</a>
+					<li class="current tsd-kind-interface">
+						<a href="userauthobject.html" class="tsd-kind-icon">User<wbr>Auth<wbr>Object</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_client_.client.html#server" class="tsd-kind-icon">server</a>
+								<a href="userauthobject.html#expires" class="tsd-kind-icon">expires</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="userauthobject.html#refresh" class="tsd-kind-icon">refresh</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="userauthobject.html#token" class="tsd-kind-icon">token</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="userauthobject.html#user_id" class="tsd-kind-icon">user_<wbr>id</a>
 							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#main" class="tsd-kind-icon">main</a>
+					</li>
 				</ul>
 			</nav>
 		</div>
