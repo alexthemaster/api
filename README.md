@@ -1,3 +1,26 @@
+<div style="text-align:center;"><h1>@skyra/api</h1></div>
+
+[![GitHub](https://img.shields.io/github/license/skyra-project/api)](https://github.com/skyra-project/api/blob/main/LICENSE.md)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/skyra-project/api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/api/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/skyra-project/api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/skyra-project/api/context:javascript)
+[![Coverage Status](https://coveralls.io/repos/github/skyra-project/api/badge.svg?branch=main)](https://coveralls.io/github/skyra-project/api?branch=main)
+[![npm](https://img.shields.io/npm/v/@skyra/api?color=crimson&label=TypeScript%20version&logo=npm&style=flat-square)](https://www.npmjs.com/package/@skyra/api)
+[![Depfu](https://badges.depfu.com/badges/e743bcfd1ca85cfd176b0065fd3b307a/count.svg)](https://depfu.com/github/skyra-project/api?project_id=14148)
+
+Plugin for [@skyra/framework] to expose an API from an [@klasa/core] bot.
+
+**Much of the code in this repository is based on the ideas in [klasa-dashboard-hooks]. This project would not exist without it.**
+
+## Features
+
+- Fully ready for TypeScript!
+- Provides a Decorator-based API to make developing your routes easy!
+- Follows common REST standards.
+
+## API Documentation
+
+For the full API documentation please refer to [the TypeDoc generated documentation](https://skyra-project.github.io/api)
+
 ## Buy us some doughnuts
 
 Skyra Project is open source and always will be, even if we don't get donations. That said, we know there are amazing people who
@@ -34,6 +57,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
+[@klasa/core]: https://github.com/dirigeants/core
+[@skyra/framework]: https://github.com/skyra-project/framework
+[klasa-dashboard-hooks]: https://github.com/dirigeants/klasa-dashboard-hooks
 [patreonimage]: https://cdn.skyra.pw/gh-assets/patreon.png
 [paypalimage]: https://cdn.skyra.pw/gh-assets/paypal.png
 [bitcoinimage]: https://cdn.skyra.pw/gh-assets/bitcoin.png
