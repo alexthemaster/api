@@ -1,3 +1,3 @@
-export const main = () => 'this builds and pushes';
+export * from './lib/SkyraAPI';
 
-export default main;
+export const main = () => 'this builds and pushes';
