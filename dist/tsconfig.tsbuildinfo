@@ -1151,9 +1151,29 @@
         "signature": "4d2f4e282d0f877206992e2016747a9e05af5b200b682603fa93ad573b7f334f",
         "affectsGlobalScope": false
       },
+      "../src/lib/structures/api/ApiRequest.ts": {
+        "version": "d76aba98665a70695d32438fba9517692b648e0908daec3d4140a61793adfe12",
+        "signature": "f84c2dd5809db5e3189547107a93c2127e4e3d956414e0e6668e174a93129d3c",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/utils/Mime.ts": {
+        "version": "e9b9bd920b1afde7b7f07d70880b0c1bc146608ae2d36e7d2cc787d32563657b",
+        "signature": "219355e7a8e9935d439a7f9df2baa0182873af20e222c813bf35e3b40b4d9677",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/api/CookieStore.ts": {
+        "version": "b2a123529e3b622bf64dbb7d5b7b0e48bd1e5d6be7b2f8b2e6884b20d5e7a2be",
+        "signature": "eca80458d51497f654a9d327e5093cf868a2178f44664a4d387aa7df97353d5e",
+        "affectsGlobalScope": false
+      },
+      "../src/lib/structures/api/ApiResponse.ts": {
+        "version": "6a837f32c8d58efe51982615a2205abff99b618e547d26be86cceaa959560548",
+        "signature": "5f07243f2ed1d08fb54211fc184abc220f3dcafd568b12272bc0e7644a074d0a",
+        "affectsGlobalScope": false
+      },
       "../src/index.ts": {
-        "version": "3992fd031a4b9174f34f240da1d04b01c4ccdc5c81118ea5aa79d4323633a850",
-        "signature": "25818dbf1479d0ee3bb2535a96475e10a988744e03bd0015bca752e2fd339bc9",
+        "version": "d509e55a6423cd2cde1ad2c8cc905be9354452fb24ccc2fc96a716ba370e3125",
+        "signature": "2fcf57e10b8eb250c7d54530115e096ac4d8b5a74367239cd960fbf29345a3d6",
         "affectsGlobalScope": false
       },
       "../node_modules/@babel/types/lib/index.d.ts": {
@@ -4408,7 +4428,12 @@
         "../node_modules/@types/node/ts3.2/process.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts",
         "../node_modules/@types/node/util.d.ts",
-        "../src/lib/SkyraAPI.ts"
+        "../src/lib/SkyraAPI.ts",
+        "../src/lib/structures/api/ApiRequest.ts",
+        "../src/lib/structures/api/ApiResponse.ts",
+        "../src/lib/structures/api/CookieStore.ts",
+        "../src/lib/structures/http/Server.ts",
+        "../src/lib/utils/Mime.ts"
       ],
       "../src/lib/SkyraAPI.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
@@ -4422,8 +4447,50 @@
         "../node_modules/@types/node/util.d.ts",
         "../src/lib/structures/http/Server.ts"
       ],
+      "../src/lib/structures/api/ApiRequest.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/structures/api/ApiResponse.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/http.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/api/CookieStore.ts",
+        "../src/lib/utils/Mime.ts"
+      ],
+      "../src/lib/structures/api/CookieStore.ts": [
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../src/lib/structures/api/ApiRequest.ts",
+        "../src/lib/structures/api/ApiResponse.ts"
+      ],
       "../src/lib/structures/http/Server.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
+        "../node_modules/@types/graceful-fs/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/process.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/process.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts",
+        "../node_modules/@types/node/util.d.ts"
+      ],
+      "../src/lib/utils/Mime.ts": [
         "../node_modules/@types/graceful-fs/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/process.d.ts",
@@ -7506,12 +7573,29 @@
         "../node_modules/@types/node/util.d.ts"
       ],
       "../src/index.ts": [
-        "../src/lib/SkyraAPI.ts"
+        "../src/lib/SkyraAPI.ts",
+        "../src/lib/structures/api/ApiRequest.ts",
+        "../src/lib/structures/api/ApiResponse.ts",
+        "../src/lib/structures/api/CookieStore.ts",
+        "../src/lib/structures/http/Server.ts",
+        "../src/lib/utils/Mime.ts"
       ],
       "../src/lib/SkyraAPI.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts",
         "../node_modules/@klasa/core/dist/src/lib/client/Client.d.ts",
         "../src/lib/structures/http/Server.ts"
+      ],
+      "../src/lib/structures/api/ApiRequest.ts": [
+        "../node_modules/@types/node/http.d.ts"
+      ],
+      "../src/lib/structures/api/ApiResponse.ts": [
+        "../node_modules/@types/node/http.d.ts",
+        "../src/lib/structures/api/CookieStore.ts",
+        "../src/lib/utils/Mime.ts"
+      ],
+      "../src/lib/structures/api/CookieStore.ts": [
+        "../src/lib/structures/api/ApiRequest.ts",
+        "../src/lib/structures/api/ApiResponse.ts"
       ],
       "../src/lib/structures/http/Server.ts": [
         "../node_modules/@klasa/core/dist/src/index.d.ts"
@@ -7777,7 +7861,11 @@
       "../node_modules/typescript/lib/lib.esnext.string.d.ts",
       "../src/index.ts",
       "../src/lib/SkyraAPI.ts",
-      "../src/lib/structures/http/Server.ts"
+      "../src/lib/structures/api/ApiRequest.ts",
+      "../src/lib/structures/api/ApiResponse.ts",
+      "../src/lib/structures/api/CookieStore.ts",
+      "../src/lib/structures/http/Server.ts",
+      "../src/lib/utils/Mime.ts"
     ]
   },
   "version": "3.9.7"
