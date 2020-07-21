@@ -1,20 +1,25 @@
 import type { Client } from '@klasa/core';
+import { createServer as httpCreateServer, Server as HttpServer } from 'http';
 
 export class Server {
 	/**
+	 * The http.Server instance that manages the recieved HTTP requests.
+	 * @since 1.0.0
+	 */
+	public readonly kServer: HttpServer;
+
+	/**
 	 * The managing Client instance on which this Server instance is mounted.
-	 * @since 0.0.1
+	 * @since 1.0.0
 	 */
 	private readonly kClient: Client;
 
 	/**
-	 * @since 0.0.1
+	 * @since 1.0.0
 	 * @param client The @klasa/core Client instance
 	 */
 	public constructor(client: Client) {
 		this.kClient = client;
-
-		// TODO: Remove once routing is implemented
-		console.log(this.kClient.user?.id);
+		this.kServer = httpCreateServer(this.kClient.options.api.server);
 	}
 }

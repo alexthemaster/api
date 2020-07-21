@@ -2,8 +2,5 @@
 /src/ @kyranet
 
 # Favna
-/src/tsconfig.json @favna
+/src/ @favna
 /tests/ @favna
-
-# QuantumlyTangled
-/src/ @quantumlytangled
