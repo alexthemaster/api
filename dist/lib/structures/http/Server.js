@@ -1,16 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Server = void 0;
+const http_1 = require("http");
 class Server {
     /**
-     * @since 0.0.1
+     * @since 1.0.0
      * @param client The @klasa/core Client instance
      */
     constructor(client) {
-        var _a;
         this.kClient = client;
-        // TODO: Remove once routing is implemented
-        console.log((_a = this.kClient.user) === null || _a === void 0 ? void 0 : _a.id);
+        this.kServer = http_1.createServer(this.kClient.options.api.server);
     }
 }
 exports.Server = Server;

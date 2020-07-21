@@ -11,10 +11,11 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.main = void 0;
-__exportStar(require("./lib/SkyraAPI"), exports);
+__exportStar(require("./lib/SkyraApi"), exports);
 __exportStar(require("./lib/structures/api/ApiRequest"), exports);
 __exportStar(require("./lib/structures/api/ApiResponse"), exports);
 __exportStar(require("./lib/structures/api/CookieStore"), exports);
+__exportStar(require("./lib/structures/http/HttpMethods"), exports);
 __exportStar(require("./lib/structures/http/Server"), exports);
 __exportStar(require("./lib/utils/Mime"), exports);
 exports.main = () => 'this builds and pushes';
