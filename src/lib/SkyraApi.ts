@@ -5,8 +5,14 @@ import { Server } from './structures/http/Server';
 
 export const kRoutePathCacheSymbol = Symbol('pathCache');
 
+/**
+ * @since 1.0.0
+ */
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class SkyraApi implements Plugin {
+	/**
+	 * @since 1.0.0
+	 */
 	// eslint-disable-next-line @typescript-eslint/no-empty-function
 	public static [Client.plugin](this: Client): void {
 		mergeDefault({}, this.options);
@@ -15,7 +21,15 @@ export class SkyraApi implements Plugin {
 	}
 }
 
+/**
+ * @since 1.0.0
+ */
 export interface SkyraApiOptions {
+	/**
+	 * @since 1.0.0
+	 */
+	prefix: string;
+
 	/**
 	 * @since 1.0.0
 	 */
