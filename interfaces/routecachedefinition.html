@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>UserAuthObject | @skyra/api</title>
+	<title>RouteCacheDefinition | @skyra/api</title>
 	<meta name="description" content="Documentation for @skyra/api">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -52,21 +52,30 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="userauthobject.html">UserAuthObject</a>
+					<a href="routecachedefinition.html">RouteCacheDefinition</a>
 				</li>
 			</ul>
-			<h1>Interface UserAuthObject</h1>
+			<h1>Interface RouteCacheDefinition</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<dl class="tsd-comment-tags">
+						<dt>since</dt>
+						<dd><p>1.0.0</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">UserAuthObject</span>
+						<span class="target">RouteCacheDefinition</span>
 					</li>
 				</ul>
 			</section>
@@ -77,10 +86,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#expires" class="tsd-kind-icon">expires</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#refresh" class="tsd-kind-icon">refresh</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#token" class="tsd-kind-icon">token</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="userauthobject.html#user_id" class="tsd-kind-icon">user_<wbr>id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routecachedefinition.html#httpmethod" class="tsd-kind-icon">http<wbr>Method</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routecachedefinition.html#method" class="tsd-kind-icon">method</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="routecachedefinition.html#route" class="tsd-kind-icon">route</a></li>
 							</ul>
 						</section>
 					</div>
@@ -89,44 +97,55 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="expires" class="tsd-anchor"></a>
-					<h3>expires</h3>
-					<div class="tsd-signature tsd-kind-icon">expires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="httpmethod" class="tsd-anchor"></a>
+					<h3>http<wbr>Method</h3>
+					<div class="tsd-signature tsd-kind-icon">http<wbr>Method<span class="tsd-signature-symbol">:</span> <a href="../enums/methods.html" class="tsd-signature-type">Methods</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/ApiRequest.ts#L8">src/lib/structures/api/ApiRequest.ts:8</a></li>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/decorators/HttpMethods.ts#L46">src/lib/decorators/HttpMethods.ts:46</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>1.0.0</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="refresh" class="tsd-anchor"></a>
-					<h3>refresh</h3>
-					<div class="tsd-signature tsd-kind-icon">refresh<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="method" class="tsd-anchor"></a>
+					<h3>method</h3>
+					<div class="tsd-signature tsd-kind-icon">method<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/ApiRequest.ts#L5">src/lib/structures/api/ApiRequest.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/decorators/HttpMethods.ts#L36">src/lib/decorators/HttpMethods.ts:36</a></li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>1.0.0</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="token" class="tsd-anchor"></a>
-					<h3>token</h3>
-					<div class="tsd-signature tsd-kind-icon">token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="route" class="tsd-anchor"></a>
+					<h3>route</h3>
+					<div class="tsd-signature tsd-kind-icon">route<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/ApiRequest.ts#L4">src/lib/structures/api/ApiRequest.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/decorators/HttpMethods.ts#L41">src/lib/decorators/HttpMethods.ts:41</a></li>
 						</ul>
 					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="user_id" class="tsd-anchor"></a>
-					<h3>user_<wbr>id</h3>
-					<div class="tsd-signature tsd-kind-icon">user_<wbr>id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/ApiRequest.ts#L7">src/lib/structures/api/ApiRequest.ts:7</a></li>
-						</ul>
-					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>since</dt>
+							<dd><p>1.0.0</p>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 		</div>
@@ -170,36 +189,33 @@
 					<li class=" tsd-kind-class">
 						<a href="../classes/skyraapi.html" class="tsd-kind-icon">Skyra<wbr>Api</a>
 					</li>
-					<li class=" tsd-kind-interface">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
 						<a href="routecachedefinition.html" class="tsd-kind-icon">Route<wbr>Cache<wbr>Definition</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="routecachedefinition.html#httpmethod" class="tsd-kind-icon">http<wbr>Method</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="routecachedefinition.html#method" class="tsd-kind-icon">method</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="routecachedefinition.html#route" class="tsd-kind-icon">route</a>
+							</li>
+						</ul>
 					</li>
+				</ul>
+				<ul class="after-current">
 					<li class=" tsd-kind-interface">
 						<a href="securecookiestoresetoptions.html" class="tsd-kind-icon">Secure<wbr>Cookie<wbr>Store<wbr>Set<wbr>Options</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="skyraapioptions.html" class="tsd-kind-icon">Skyra<wbr>Api<wbr>Options</a>
 					</li>
-				</ul>
-				<ul class="current">
-					<li class="current tsd-kind-interface">
+					<li class=" tsd-kind-interface">
 						<a href="userauthobject.html" class="tsd-kind-icon">User<wbr>Auth<wbr>Object</a>
-						<ul>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="userauthobject.html#expires" class="tsd-kind-icon">expires</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="userauthobject.html#refresh" class="tsd-kind-icon">refresh</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="userauthobject.html#token" class="tsd-kind-icon">token</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="userauthobject.html#user_id" class="tsd-kind-icon">user_<wbr>id</a>
-							</li>
-						</ul>
 					</li>
-				</ul>
-				<ul class="after-current">
 					<li class=" tsd-kind-type-alias">
 						<a href="../globals.html#parsedpart" class="tsd-kind-icon">Parsed<wbr>Part</a>
 					</li>

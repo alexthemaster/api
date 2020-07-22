@@ -89,8 +89,13 @@
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#_symbol_tostringtag_" class="tsd-kind-icon">[<wbr>Symbol.to<wbr>String<wbr>Tag]</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="cookiestore.html#domain" class="tsd-kind-icon">domain</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="cookiestore.html#request" class="tsd-kind-icon">request</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="cookiestore.html#response" class="tsd-kind-icon">response</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="cookiestore.html#secure" class="tsd-kind-icon">secure</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#size" class="tsd-kind-icon">size</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="cookiestore.html#map" class="tsd-kind-icon">Map</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="cookiestore.html#koctetregexp" class="tsd-kind-icon">k<wbr>Octet<wbr>Reg<wbr>Exp</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -104,9 +109,12 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#foreach" class="tsd-kind-icon">for<wbr>Each</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#get" class="tsd-kind-icon">get</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#has" class="tsd-kind-icon">has</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="cookiestore.html#insert" class="tsd-kind-icon">insert</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#keys" class="tsd-kind-icon">keys</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="cookiestore.html#prepare" class="tsd-kind-icon">prepare</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#set" class="tsd-kind-icon">set</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="cookiestore.html#values" class="tsd-kind-icon">values</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static"><a href="cookiestore.html#encodecookieoctet" class="tsd-kind-icon">encode<wbr>Cookie<wbr>Octet</a></li>
 							</ul>
 						</section>
 					</div>
@@ -124,7 +132,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/skyra-project/api/blob/430d928/src/lib/structures/api/CookieStore.ts#L11">src/lib/structures/api/CookieStore.ts:11</a></li>
+									<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L11">src/lib/structures/api/CookieStore.ts:11</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -157,6 +165,46 @@
 						</ul>
 					</aside>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="domain" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> domain</h3>
+					<div class="tsd-signature tsd-kind-icon">domain<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L10">src/lib/structures/api/CookieStore.ts:10</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="request" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> request</h3>
+					<div class="tsd-signature tsd-kind-icon">request<span class="tsd-signature-symbol">:</span> <a href="apirequest.html" class="tsd-signature-type">ApiRequest</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L8">src/lib/structures/api/CookieStore.ts:8</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="response" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> response</h3>
+					<div class="tsd-signature tsd-kind-icon">response<span class="tsd-signature-symbol">:</span> <a href="apiresponse.html" class="tsd-signature-type">ApiResponse</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L9">src/lib/structures/api/CookieStore.ts:9</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="secure" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> secure</h3>
+					<div class="tsd-signature tsd-kind-icon">secure<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L11">src/lib/structures/api/CookieStore.ts:11</a></li>
+						</ul>
+					</aside>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="size" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> size</h3>
@@ -175,6 +223,16 @@
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in node_modules/typescript/lib/lib.es2015.collection.d.ts:36</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="koctetregexp" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> k<wbr>Octet<wbr>Reg<wbr>Exp</h3>
+					<div class="tsd-signature tsd-kind-icon">k<wbr>Octet<wbr>Reg<wbr>Exp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">RegExp</span><span class="tsd-signature-symbol"> = /[^\x21\x23-\x2B\x2D-\x3A\x3C-\x5B\x5D-\x7E]/g</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L101">src/lib/structures/api/CookieStore.ts:101</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -214,7 +272,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/skyra-project/api/blob/430d928/src/lib/structures/api/CookieStore.ts#L45">src/lib/structures/api/CookieStore.ts:45</a></li>
+									<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L45">src/lib/structures/api/CookieStore.ts:45</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -397,6 +455,32 @@
 						</li>
 					</ul>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="insert" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> insert</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">insert<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, entry<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L49">src/lib/structures/api/CookieStore.ts:49</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>entry: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="keys" class="tsd-anchor"></a>
 					<h3>keys</h3>
@@ -417,6 +501,49 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">IterableIterator</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="prepare" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> prepare</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">prepare<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, __namedParameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>domain<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>expires<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol">; </span>maxAge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L64">src/lib/structures/api/CookieStore.ts:64</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>value: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> __namedParameters: <span class="tsd-signature-symbol">{ </span>domain<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">; </span>expires<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span><span class="tsd-signature-symbol">; </span>maxAge<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">; </span>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol"> = {}</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5>domain<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>expires<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Date</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>max<wbr>Age<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>path<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -470,6 +597,29 @@
 						</li>
 					</ul>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+					<a name="encodecookieoctet" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagPrivate">Private</span> encode<wbr>Cookie<wbr>Octet</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">encode<wbr>Cookie<wbr>Octet<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/skyra-project/api/blob/f81c2a6/src/lib/structures/api/CookieStore.ts#L103">src/lib/structures/api/CookieStore.ts:103</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
 			</section>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -484,6 +634,9 @@
 				<ul class="before-current">
 					<li class=" tsd-kind-enum">
 						<a href="../enums/methods.html" class="tsd-kind-icon">Methods</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="../enums/typestate.html" class="tsd-kind-icon">Type<wbr>State</a>
 					</li>
 					<li class=" tsd-kind-enum">
 						<a href="../enums/types.html" class="tsd-kind-icon">Types</a>
@@ -505,11 +658,26 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#_symbol_tostringtag_" class="tsd-kind-icon">[<wbr>Symbol.to<wbr>String<wbr>Tag]</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="cookiestore.html#domain" class="tsd-kind-icon">domain</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="cookiestore.html#request" class="tsd-kind-icon">request</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="cookiestore.html#response" class="tsd-kind-icon">response</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="cookiestore.html#secure" class="tsd-kind-icon">secure</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#size" class="tsd-kind-icon">size</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
 								<a href="cookiestore.html#map" class="tsd-kind-icon">Map</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="cookiestore.html#koctetregexp" class="tsd-kind-icon">k<wbr>Octet<wbr>Reg<wbr>Exp</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#_symbol_iterator_" class="tsd-kind-icon">[<wbr>Symbol.iterator]</a>
@@ -535,8 +703,14 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#has" class="tsd-kind-icon">has</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="cookiestore.html#insert" class="tsd-kind-icon">insert</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#keys" class="tsd-kind-icon">keys</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="cookiestore.html#prepare" class="tsd-kind-icon">prepare</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#set" class="tsd-kind-icon">set</a>
@@ -544,15 +718,27 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="cookiestore.html#values" class="tsd-kind-icon">values</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private tsd-is-static">
+								<a href="cookiestore.html#encodecookieoctet" class="tsd-kind-icon">encode<wbr>Cookie<wbr>Octet</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
 				<ul class="after-current">
 					<li class=" tsd-kind-class">
+						<a href="route.html" class="tsd-kind-icon">Route</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="routestore.html" class="tsd-kind-icon">Route<wbr>Store</a>
+					</li>
+					<li class=" tsd-kind-class">
 						<a href="server.html" class="tsd-kind-icon">Server</a>
 					</li>
 					<li class=" tsd-kind-class">
 						<a href="skyraapi.html" class="tsd-kind-icon">Skyra<wbr>Api</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="../interfaces/routecachedefinition.html" class="tsd-kind-icon">Route<wbr>Cache<wbr>Definition</a>
 					</li>
 					<li class=" tsd-kind-interface">
 						<a href="../interfaces/securecookiestoresetoptions.html" class="tsd-kind-icon">Secure<wbr>Cookie<wbr>Store<wbr>Set<wbr>Options</a>
@@ -563,17 +749,59 @@
 					<li class=" tsd-kind-interface">
 						<a href="../interfaces/userauthobject.html" class="tsd-kind-icon">User<wbr>Auth<wbr>Object</a>
 					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="../globals.html#parsedpart" class="tsd-kind-icon">Parsed<wbr>Part</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../globals.html#colon" class="tsd-kind-icon">colon</a>
+					</li>
 					<li class=" tsd-kind-variable">
 						<a href="../globals.html#kroutepathcachesymbol" class="tsd-kind-icon">k<wbr>Route<wbr>Path<wbr>Cache<wbr>Symbol</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="../globals.html#slash" class="tsd-kind-icon">slash</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httpconnect" class="tsd-kind-icon">Http<wbr>Connect</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httpdelete" class="tsd-kind-icon">Http<wbr>Delete</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="../globals.html#httpget" class="tsd-kind-icon">Http<wbr>Get</a>
 					</li>
 					<li class=" tsd-kind-function">
+						<a href="../globals.html#httphead" class="tsd-kind-icon">Http<wbr>Head</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httpoptions" class="tsd-kind-icon">Http<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httppatch" class="tsd-kind-icon">Http<wbr>Patch</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httppost" class="tsd-kind-icon">Http<wbr>Post</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httpput" class="tsd-kind-icon">Http<wbr>Put</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#httptrace" class="tsd-kind-icon">Http<wbr>Trace</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private">
 						<a href="../globals.html#createhttpmethoddecorator" class="tsd-kind-icon">create<wbr>Http<wbr>Method<wbr>Decorator</a>
 					</li>
 					<li class=" tsd-kind-function">
 						<a href="../globals.html#main" class="tsd-kind-icon">main</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#parse" class="tsd-kind-icon">parse</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#parsepart" class="tsd-kind-icon">parse<wbr>Part</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="../globals.html#split" class="tsd-kind-icon">split</a>
 					</li>
 				</ul>
 			</nav>
@@ -599,8 +827,15 @@
 				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+			</ul>
+			<ul class="tsd-legend">
 				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
 			</ul>
 		</div>
 	</div>
