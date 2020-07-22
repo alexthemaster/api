@@ -2,6 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Server = void 0;
 const http_1 = require("http");
+/**
+ * @since 1.0.0
+ */
 class Server {
     /**
      * @since 1.0.0

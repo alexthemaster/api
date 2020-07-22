@@ -1,6 +1,9 @@
 /// <reference types="node" />
 import type { Client } from '@klasa/core';
 import { Server as HttpServer } from 'http';
+/**
+ * @since 1.0.0
+ */
 export declare class Server {
     /**
      * The http.Server instance that manages the recieved HTTP requests.
@@ -9,6 +12,7 @@ export declare class Server {
     readonly kServer: HttpServer;
     /**
      * The managing Client instance on which this Server instance is mounted.
+     * @private
      * @since 1.0.0
      */
     private readonly kClient;
