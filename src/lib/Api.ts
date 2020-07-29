@@ -9,7 +9,7 @@ export const kRoutePathCacheSymbol = Symbol('pathCache');
  * @since 1.0.0
  */
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
-export class API implements Plugin {
+export class Api implements Plugin {
 	/**
 	 * @since 1.0.0
 	 */
@@ -24,7 +24,7 @@ export class API implements Plugin {
 /**
  * @since 1.0.0
  */
-export interface APIOptions {
+export interface ApiOptions {
 	/**
 	 * @since 1.0.0
 	 */
@@ -42,6 +42,6 @@ declare module '@klasa/core/dist/src/lib/client/Client' {
 	}
 
 	export interface ClientOptions {
-		api: Partial<APIOptions>;
+		api: Partial<ApiOptions>;
 	}
 }
