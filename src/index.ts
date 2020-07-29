@@ -1,4 +1,4 @@
-export * from './lib/SkyraApi';
+export * from './lib/Api';
 export * from './lib/structures/api/ApiRequest';
 export * from './lib/structures/api/ApiResponse';
 export * from './lib/structures/api/CookieStore';

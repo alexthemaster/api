@@ -1,4 +1,4 @@
-import { kRoutePathCacheSymbol } from '../SkyraApi';
+import { kRoutePathCacheSymbol } from '../Api';
 import { Methods } from '../structures/http/HttpMethods';
 
 /**

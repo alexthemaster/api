@@ -2,7 +2,7 @@ import { Cache } from '@klasa/cache';
 import { Client, PieceConstructor, Store } from '@klasa/core';
 import { METHODS } from 'http';
 import type { RouteCacheDefinition } from '../decorators/HttpMethods';
-import { kRoutePathCacheSymbol } from '../SkyraApi';
+import { kRoutePathCacheSymbol } from '../Api';
 import { parse, ParsedPart } from '../utils/pathParsing';
 import type { Methods } from './http/HttpMethods';
 import { Route } from './Route';

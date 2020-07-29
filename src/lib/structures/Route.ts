@@ -1,5 +1,5 @@
 import { Piece, PieceOptions } from '@klasa/core';
-import { kRoutePathCacheSymbol } from '../SkyraApi';
+import { kRoutePathCacheSymbol } from '../Api';
 import type { RouteCacheDefinition } from '../decorators/HttpMethods';
 import type { RouteStore } from './RouteStore';
 
