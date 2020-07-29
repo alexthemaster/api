@@ -21,12 +21,16 @@ There are a number of guidelines considered when reviewing Pull Requests to be m
 - Everything should be shard compliant. If code you put in a pull request would break when sharding, break other things from supporting sharding, or is incompatible with sharding; then you will need to think of a way to make it work with sharding in mind before the pull request will be accepted and merged.
 - Everything should follow [OOP paradigms] and generally rely on behaviour over state where possible. This generally helps methods be predictable, keeps the codebase simple and understandable, reduces code duplication through abstraction, and leads to efficiency and therefore scalability.
 - Everything should follow our ESLint rules as closely as possible, and should pass lint tests even if you must disable a rule for a single line.
+- Everything should follow [Discord Bot Best Practices]
+- Scripts that are to be ran outside of the scope of the bot should be added to [scripts] directory and should be in the `.mjs` file format.
 
 <!-- Link Dump -->
 
-[Discord Server]:                            https://join.skyra.pw
+[Discord Server]:                            https://join.skyra.pw/sapphire
 [here]:                                      https://github.com/sapphire-project/api/pulls
 [ESLint]:                                    https://eslint.org/
 [Node.JS]:                                   https://nodejs.org/en/download/
 [Yarn]:                                      https://classic.yarnpkg.com/en/docs/install
 [OOP paradigms]:                             https://en.wikipedia.org/wiki/Object-oriented_programming
+[Discord Bot Best Practices]:                https://github.com/meew0/discord-bot-best-practices
+[scripts]:                                   /scripts
