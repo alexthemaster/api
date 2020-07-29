@@ -4,6 +4,7 @@
 	"description": "Plugin for @spfw/framework to expose an API from an @klasa/core bot.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
+	"author": "@sapphire-project",
 	"license": "MIT",
 	"private": false,
 	"scripts": {
