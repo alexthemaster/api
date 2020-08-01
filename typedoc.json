@@ -1,7 +1,7 @@
 {
 	"out": "./docs/",
 	"readme": "./README.md",
-	"name": "@spfw/api",
+	"name": "@sapphire/api",
 	"exclude": [
 		"**/node_modules/**",
 		"tests/**"

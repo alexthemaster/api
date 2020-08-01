@@ -4,10 +4,10 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/sapphire-project/api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/sapphire-project/api/alerts/)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/sapphire-project/api.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/sapphire-project/api/context:javascript)
 [![Coverage Status](https://coveralls.io/repos/github/sapphire-project/api/badge.svg?branch=main)](https://coveralls.io/github/sapphire-project/api?branch=main)
-[![npm](https://img.shields.io/npm/v/@spfw/api?color=crimson&label=TypeScript%20version&logo=npm&style=flat-square)](https://www.npmjs.com/package/@spfw/api)
+[![npm](https://img.shields.io/npm/v/@sapphire/api?color=crimson&label=TypeScript%20version&logo=npm&style=flat-square)](https://www.npmjs.com/package/@sapphire/api)
 [![Depfu](https://badges.depfu.com/badges/e743bcfd1ca85cfd176b0065fd3b307a/count.svg)](https://depfu.com/github/sapphire-project/api?project_id=14148)
 
-Plugin for [@sapphire-project/framework] to expose an API from an [@klasa/core] bot.
+Plugin for [@sapphire-project/framework] to expose an API from an [@sapphire/lib] bot.
 
 **Much of the code in this repository is based on the ideas in [klasa-dashboard-hooks]. This project would not exist without it.**
 
@@ -17,9 +17,9 @@ Plugin for [@sapphire-project/framework] to expose an API from an [@klasa/core] 
 - Provides a Decorator-based API to make developing your routes easy!
 - Follows common REST standards.
 
-## API Documentation
+## @sapphire/api Documentation
 
-For the full API documentation please refer to [the TypeDoc generated documentation](https://sapphire-project.github.io/api)
+For the full @sapphire/api documentation please refer to [the TypeDoc generated documentation](https://sapphire-project.github.io/api)
 
 ## Buy us some doughnuts
 
@@ -57,7 +57,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-[@klasa/core]: https://github.com/dirigeants/core
+[@sapphire/lib]: https://github.com/sapphire-project/lib
 [@sapphire-project/framework]: https://github.com/sapphire-project/framework
 [klasa-dashboard-hooks]: https://github.com/dirigeants/klasa-dashboard-hooks
 [patreonimage]: https://cdn.skyra.pw/gh-assets/patreon.png

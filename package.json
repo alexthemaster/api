@@ -1,7 +1,7 @@
 {
-	"name": "@spfw/api",
+	"name": "@sapphire/api",
 	"version": "0.0.1",
-	"description": "Plugin for @spfw/framework to expose an API from an @klasa/core bot.",
+	"description": "Plugin for @sapphire/framework to expose an API from an @sapphire/lib bot.",
 	"main": "dist/index.js",
 	"types": "dist/index.d.ts",
 	"author": "@sapphire-project",
@@ -64,7 +64,7 @@
 		"typescript",
 		"ts",
 		"yarn",
-		"@sapphire/core",
+		"@sapphire/lib",
 		"sapphire",
 		"standalone"
 	],
