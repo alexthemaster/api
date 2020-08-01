@@ -60,13 +60,12 @@
 		"npm": ">=6"
 	},
 	"keywords": [
-		"@klasa/core",
 		"bot",
 		"typescript",
 		"ts",
 		"yarn",
-		"discord",
-		"skyra",
+		"@sapphire/core",
+		"sapphire",
 		"standalone"
 	],
 	"bugs": {
